@@ -1,39 +1,29 @@
 body{
     background-image: linear-gradient(grey, #FEFEFE);
     width:100%;
+    padding: 0;
+    margin: 0;
 }
 
 
 header{
+    text-align: center;
     position: fixed;
     width: 100%;
     background-color: #800000;
-    height: 150px;
-   
-}
-
-h1{
-    display: inline-block;
-    padding: auto;
-}
-
-
-
-nav ul{
-    display: inline;
 }
 
 
 .btn{
     padding: 5px;
-    margin: 5px 97px;
+    margin:0 50px;
     text-transform: uppercase;
     border-radius: 3px;
     transition: 1s all;
     color: #1C1C1C;
     border: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     background-color: antiquewhite;
     
@@ -42,12 +32,12 @@ nav ul{
 .btn:hover{
     color: #8B4513;
     text-decoration: underline;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 
 div .produtos{
-    width: 940px; 
+    width: 100%; 
     padding-top: 200px;
     padding-bottom: 5px;
     padding-left: 0;
@@ -58,7 +48,8 @@ h2{
     color: bisque;
     font-size: 22px;
     font-weight: bold;
-    margin: 0 0 40px 0;
+    margin-top: 5px;
+    margin-bottom: 20%;
     
 }
 div li{
@@ -67,8 +58,10 @@ div li{
     display: inline-block;
     text-align: center;
     width: 30%;
-    margin: 65px 1.4%;
-    padding: 65px 0 1.5em 0;
+    margin: 50px 1.4%;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 15px;
     box-sizing: border-box;
     border: #000000 solid 2px;
     border-radius: 10px;
@@ -77,10 +70,10 @@ div li{
 .quero{
     color: #1C1C1C;
     margin: 30px 0 5px;
-    padding: 8px 15px;
+    padding: 5px 15px;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -88,7 +81,7 @@ div li{
 .selecionado{
     text-decoration: underline;
     background-color: gold;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 footer{
