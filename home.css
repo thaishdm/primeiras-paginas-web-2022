@@ -6,15 +6,15 @@ body{
 
 header{
     position: fixed;
-    width: 300%;
+    width: 100%;
     background-color: #800000;
     height: 150px;
    
 }
 
 h1{
-    display: inline;
-    padding: 150px;
+    display: inline-block;
+    padding: auto;
 }
 
 
@@ -45,15 +45,13 @@ nav ul{
     font-size: 22px;
 }
 
-body{
-    background-image: linear-gradient(rgb(83, 81, 81), #FEFEFE);
-}
 
 div .produtos{
     width: 940px; 
     padding-top: 200px;
     padding-bottom: 5px;
-    padding-left: 15%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 h2{
