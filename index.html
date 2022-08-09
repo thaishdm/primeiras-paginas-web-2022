@@ -4,7 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Loja</title>
+
+    
+    <script src="https://kit.fontawesome.com/aaf40594de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="home.css">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   </head>
-  <body></body>
+  <body>
+    
+    <header>
+      <div class="caixa">
+        <h1><img class="logo" src="Imagens/logorest.jpg"></h1>
+        <h1><img class="logo" src="Imagens/logorest.jpg"></h1>
+        <h1><img class="logo" src="Imagens/logorest.jpg"></h1>
+        
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <button class="btn" onclick="exibirTodos()"  data-categoria="todos">Todos</button>
+            <button class="btn" onclick="exibirCarnes()" data-categoria="carnes">Carnes e Lanches</button>
+            <button class="btn" onclick="exibirJapan()" data-categoria="japan">Japan Food</button>
+            <button class="btn" onclick="exibirBebidas()" data-categoria="bebidas">Bebidas</button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <script src="home.js"></script>
+      
+
+      <div id="carnes">
+          <ul class="produtos">
+            <li>
+                <h2>Picanha e Purê de Cabotia</h2>
+                <img src="Imagens/carneq.jpeg">
+                <button class="quero" onclick="botaoQuero(this)">Quero!</button>          
+            </li>
+            <li>
+                <h2>Parmegiana de Filé Mignon</h2>
+                <img src="Imagens/parmegiana.jpeg">
+                <button class="quero" onclick="botaoQuero(this)">Quero!</button>
+            </li>
+            <li>
+                <h2>Lanches Hamburguer com Bacon</h2>
+                <img src="Imagens/lachebacon.jpeg">
+                  <button class="quero" onclick="botaoQuero(this)">Quero!</button>
+            </li> 
+         </ul>
+      </div>  
+
+      <div id="japan">
+          <ul class="produtos">
+            <li>
+              <h2>Temaki de Atum</h2>
+              <img src="Imagens/temakiatum.jpeg">
+              <button class="quero" onclick="botaoQuero(this)">Quero!</button>
+            </li>
+            <li>
+                <h2>Sashimi de Atum</h2>
+                <img src="Imagens/sushimi.jpeg">
+                <button class="quero" onclick="botaoQuero(this)">Quero!</button> 
+            </li>
+            <li>
+                <h2>Carpaccio de Salmão</h2>
+                <img src="Imagens/salmao.jpeg">
+                <button class="quero" onclick="botaoQuero(this)">Quero!</button>  
+            </li>
+          </ul>
+      </div>   
+       
+      <div id="bebidas">
+          <ul class="produtos">
+            <li>
+                <h2>Café com Leite</h2>
+                <img src="Imagens/cafe2.jpeg">
+                  <button class="quero" onclick="botaoQuero(this)">Quero!</button>
+            </li>
+            <li>
+                <h2>Caipirinha de Pitaia</h2>
+                <img src="Imagens/caipirinha.jpeg">
+                  <button class="quero" onclick="botaoQuero(this)">Quero!</button>
+            </li>
+            <li>
+              <h2>Chopp Gelado</h2>
+              <img src="Imagens/chopp.jpeg">
+                <button class="quero" onclick="botaoQuero(this)">Quero!</button>
+          </li>      
+        </ul>
+      </div>  
+          <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    </main>
+    <footer>
+
+      <img src="Imagens/logorest.jpg">
+      <p class="copyright">&copy: Copyright Bacana Restaurante</p>
+      </footer>
+  </body>
+  
 </html>
